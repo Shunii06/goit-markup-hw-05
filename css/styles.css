@@ -140,7 +140,7 @@ a {
 .active .current::after {
     content: '';
     position: absolute;
-    bottom: -20px;
+    bottom: -29px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -578,6 +578,7 @@ color: var(--slate, #434455);
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    border: none;
     background-color: var(--cornflower);
 }
 .close-button:active {
