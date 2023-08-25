@@ -424,7 +424,7 @@ display: flex;
 .portfolio-card-image {
     position: absolute;
     inset: 0;
-    background-color: rgb(100 100 255 / 0.75);
+    background-color: rgb(100, 100, 255);
     color: #fff;
     translate: 0 100% 0;
     transition: translate 250ms;
