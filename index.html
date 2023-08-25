@@ -21,13 +21,11 @@
         >
         <nav class="nav-margin">
           <ul class="navigation-row">
-            <li class="main-nav-wrapper">
-              <a href="index.html" class="onsite-navi-studio">Studio</a>
+            <li class="active">
+              <a href="index.html" class="onsite-navi current">Studio</a>
             </li>
             <li>
-              <a href="portfolio.html" class="onsite-navi-portfolio"
-                >Portfolio</a
-              >
+              <a href="portfolio.html" class="onsite-navi">Portfolio</a>
             </li>
             <li>
               <a href="contacts.html" class="onsite-navi">Contacts</a>
@@ -56,7 +54,9 @@
           Effective Solutions for Your Buisness
         </h1>
         <div class="button-middle">
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </div>
       <div class="container">
@@ -379,6 +379,15 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-body">
+        <button type="button" class="close-button" data-modal-close>
+          <svg width="24px" height="24px">
+            <use href="./images/icons.svg#icon-close-black-x"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
