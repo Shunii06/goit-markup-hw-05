@@ -8,9 +8,9 @@
 --white: #fff;
 --green: #31d0aa;
 --main-font: Roboto, sans-serif;
---tr-function: cubic-bezier(0.4, 0, 0.2, 1);
---tr-duration: 250ms;
---transition: var(--tr-function) var(--tr-function)
+--tr-function: transition: cubic-bezier(0.4, 0, 0.2, 1);
+--tr-duration: translate: 250ms;
+--transition: var(--tr-function), var(--tr-function);
 
 }
 body {
@@ -435,10 +435,14 @@ display: flex;
     color: #fff;
     translate: 0 100% 0;
     transition: translate 250ms;
+    padding: 40px 32px 162px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .portfolio-cards-style:hover .portfolio-card-image {
     translate: 0;
-    transition: var(--transition);
 }
 
 .project-card {
